@@ -6,7 +6,7 @@ import { fetch } from "../../utils/dataAccess";
 import { {{{ucf}}} } from '../../types/{{{ucf}}}';
 
 interface Props {
-  {{{lc}}}?: {{{ucf}}};
+  '{{{lc}}}?': {{{ucf}}};
 }
 
 export const Form: FunctionComponent<Props> = ({ {{{lc}}} }) => {
